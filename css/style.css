@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.container{
+   width: 85%;
+   margin: 0 auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.col-1{
+    width: 8.33%;
+}
+
+.col-2{
+    width: 16.66%;
+}
+
+.col-3{
+    width: 25%;
+}
+
+.col-4{
+    width: 33.33%;
+}
+
+.col-5{
+    width: 41.66%;
+}
+
+.col-6{
+    width: 50%;
+}
+
+.col-7{
+    width: 58.33%;
+}
+
+.col-8{
+    width: 66.66%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width: 83.33%;
+}
+
+.col-11{
+    width: 91.66%;
+}
+
+.col-12{
+    width: 100%;
+}
+
+#head-up{
+    height: 70px;
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+}
+
+#head-up .logo{
+    display: flex;
+    align-items: center;
+}
+#head-up .menu ul{
+    list-style: none;
+    display: flex;
+}
+
+#head-up .menu ul li{
+    margin-left: 40px;
+}
+
+#head-up .menu ul li a{
+    color: black;
+}
+
+#head-up .menu{
+    height: 38px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin-left: 50px;
+}
+
+.logo-img img{
+    margin-top: 4px;
+}
+
+#body .main-logo{
+    display: flex;
+    align-items: center;
+}
+
+#body .mainlogo-img img{
+    width: 99%;
+    height: 400px;
+}
+
+#body .photo img{
+    width: 98%;
+    height: 166px;
+   
+}
+
+.main-row{
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    margin-top: 42px;
+    margin-bottom: -18px;
+}
+
+.latter{
+    padding-bottom: 32px;
+    margin-top: -53px;
+}
+
+.between h4{
+    margin: 30px 0 10px 111px;
+    font-size: 20px;
+}
+
+#bodydown .box img{
+    width: 98%;
+    height: 276px;
+    gap: 7px;
+    margin-top: 7px;
+}
+
+.downrow{
+    display: flex;
+    align-items: center;
+}
